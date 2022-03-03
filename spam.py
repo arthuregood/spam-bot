@@ -2,8 +2,8 @@ import pyautogui, time
 
 time.sleep(3)
 
-dreamcast = open('dreamcast', 'r')
-for word in dreamcast:
+spam = open('spam', 'r')
+for word in spam:
     pyautogui.typewrite(word)
     pyautogui.press("enter")
-dreamcast.close()
+spam.close()
